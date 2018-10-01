@@ -9,13 +9,16 @@ import com.lightbend.lagom.javadsl.api.ServiceCall;
 
 public interface HelloService extends Service {
     ServiceCall<NotUsed, String> hello(String id);
+    ServiceCall<NotUsed, String> root();
 
     @Override
     default Descriptor descriptor() {
         // @formatter:off
         return named("hello").withCalls(
-                pathCall("/api/hello/:id", this::hello)
+                pathCall("/api/hello/:id", this::hello),
+                pathCall("/", this::root)
         ).withAutoAcl(true);
         // @formatter:off
     }
+
 }
