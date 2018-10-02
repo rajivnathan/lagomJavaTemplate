@@ -12,7 +12,7 @@ image:
 service:
   name: Node
   type: NodePort
-  servicePort: 5000
+  servicePort: 9000
 
 resources:
   cpu: 100m
