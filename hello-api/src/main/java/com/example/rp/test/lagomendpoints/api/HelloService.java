@@ -1,4 +1,5 @@
-package com.lightbend.rp.test.lagomendpoints.api;
+package com.example.rp.test.lagomendpoints.api;
+
 import static com.lightbend.lagom.javadsl.api.Service.*;
 import akka.NotUsed;
 import com.lightbend.lagom.javadsl.api.Descriptor;
