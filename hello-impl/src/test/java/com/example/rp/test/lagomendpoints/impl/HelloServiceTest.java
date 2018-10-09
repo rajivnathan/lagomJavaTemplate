@@ -1,8 +1,8 @@
-package com.lightbend.rp.test.lagomendpoints.impl;
+package com.example.rp.test.lagomendpoints.impl;
 
 import org.junit.Test;
 
-import com.lightbend.rp.test.lagomendpoints.api.HelloService;
+import com.example.rp.test.lagomendpoints.api.HelloService;
 
 import static com.lightbend.lagom.javadsl.testkit.ServiceTest.defaultSetup;
 import static com.lightbend.lagom.javadsl.testkit.ServiceTest.withServer;
