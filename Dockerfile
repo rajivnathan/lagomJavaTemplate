@@ -1,4 +1,4 @@
-FROM maven:3.5.2-jdk-8-alpine AS builder
+FROM maven:3.5.4-jdk-8-alpine AS builder
 COPY pom.xml .
 COPY hello-api hello-api/
 COPY hello-impl hello-impl/

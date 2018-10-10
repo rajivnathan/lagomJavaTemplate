@@ -10,3 +10,4 @@ hello-api/target
 chart/.DS_Store
 chart/lagomjavatemplate/.DS_Store
 target
+.project
